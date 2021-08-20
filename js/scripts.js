@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $(".csharp-showing").toggle();
-    $(".csharp-hidden").toggle();
+  $(".clickable").click(function() {
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
   });
 });
