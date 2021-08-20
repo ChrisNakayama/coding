@@ -1,13 +1,11 @@
-
-.walrus-showing {
-  display: none;
+.green-background {
+  background-color: green;
 }
 
-.clickable {
-  cursor: pointer;
-  color: #0088cc;
+.yellow-background {
+  background-color: yellow;
 }
 
-.clickable:hover {
-  text-decoration: underline;
+.red-background {
+  background-color: red;
 }
