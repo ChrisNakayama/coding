@@ -7,116 +7,67 @@
   <script src="js/scripts.js"></script>
   <title>Colors</title>
 </head>
-<body>
-  <div class="container">
-    <h1>What's your favorite color?</h1>
-    <p>Click a button to choose what color you'd like this page to be:</p>
+<!DOCTYPE html>
 
-    <button class="btn btn-success" id="green">Green</button>
-    <button class="btn btn-warning" id="yellow">Yellow</button>
-    <button class="btn btn-danger" id="red">Red</button>
-  </div>
-  <h2>What language should you learn?</h2>
-  <br>
-  <hr>
-  <label for="question1"><h3>Q1. Have you coded before?</h3></label>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question1" value="1" checked/>
-      Yes! If you said yes, choose Python.
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question1" value="2"/>
-      No, I have never coded. If you have never coded, choose HTML.
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question1" value="3"/>
-      Yes, but not much. If this is you, choose a full stack program.
-    </label>
-  </div>
-  <label for="question2"><h3>Q2. Do you want a language you learn fast?</h3></label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="question2" value="1" checked/>
-        Yes! If you said yes, choose Javascript.
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="question2" value="2"/>
-        No, I want to take some time. If you choose this option, learn Python.
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="question2" value="3"/>
-        Yes, but I want to learn more than Javascript. If this is your choice, then choose a full stack Ruby program.
-      </label>
-    </div>
-  <label for="question3"><h3>Q3. Do you have coding experience?</h3></label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="question3" value="1" checked/>
-        No. If you said no, learn HTML CSS and Javascript first.
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="question3" value="2"/>
-        Yes. If you have experience, choose C# or Ruby.
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="question3" value="3"/>
-        Yes. If yes, you could also learn Python
-      </label>
-    </div>
-  <br>
-  <label for="question4"><h3>Q4. Where do you live?</h3></label>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question4" value="1" checked/>
-      Portland. If you live in Portland, choose C# or Ruby.
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question4" value="2"/>
-      Seattle. If you live in Seattle choose C#.
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question4" value="3"/>
-      New York. If you live in New York, choose Python.
-    </label>
-  </div>
-  <label for="question5"><h3>Q5. Are you going for a job right away?</h3></label>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question5" value="1" checked/>
-      Yes. If this is the case learn a full stack program in Python
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question5" value="2"/>
-      No. I would learn several languages in this case.
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="question5" value="3"/>
-      Yes! I would choose Python based on where you are located.
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">What coding language is best?</button>
-</div>
+<html>
+
+<head>
+
+<title>Coding Quiz! Discover what Language to learn!</title>
+
+</head>
+<hi>Take this quiz to learn about coding languages</hi>
+<h1>JavaScript is a______ Language.</h1><br>
+<form >
+<input type="radio" name="choice" value="Scripting"> Scripting
+<input type="radio" name="choice" value="Programming"> Food
+<input type="radio" name="choice" value="Application"> Color
+<input type="radio" name="choice" value="None of These"> None of These
 </form>
-</body>
+<button onclick="submitAnswer()">Submit Answer</button>
+
+<h1>Python is a ______ Language.</h1><br>
+<form >
+<input type="radio" name="choice" value="useful"> useful 
+<input type="radio" name="choice" value="difficult"> difficult
+<input type="radio" name="choice" value="complex"> complex
+<input type="radio" name="choice" value="None of These"> None of These
+</form>
+<button onclick="submitAnswer()">Submit Answer</button>
+
+<h1>Ruby is a ______ Language.</h1><br>
+<form >
+<input type="radio" name="choice" value="Old"> Old
+<input type="radio" name="choice" value="Fun"> Fun
+<input type="radio" name="choice" value="Dynamic"> Dynamic
+<input type="radio" name="choice" value="None of These"> None of These
+</form>
+<button onclick="submitAnswer()">Submit Answer</button>
+
+<h1>C# is really popular in______.</h1><br>
+<form >
+<input type="radio" name="choice" value="Seattle"> Seattle
+<input type="radio" name="choice" value="Portland"> Portland
+<input type="radio" name="choice" value="Ohio"> Ohio
+<input type="radio" name="choice" value="None of These"> None of These
+</form>
+<button onclick="submitAnswer()">Submit Answer</button>
+
+<h1>React is a_________.</h1><br>
+<form >
+<input type="radio" name="choice" value="JavaScript Library"> JavaScript Library
+<input type="radio" name="choice" value="back end Library"> back end Library
+<input type="radio" name="choice" value="Program"> Program
+<input type="radio" name="choice" value="None of These"> None of These
+</form>
+<button onclick="submitAnswer()">Submit Answer</button>
+
+<h1>What is the best coding language to learn in Portland?</h1><br>
+<form >
+<input type="radio" name="choice" value="Ruby"> Ruby
+<input type="radio" name="choice" value="Python"> Python
+<input type="radio" name="choice" value="C#"> C#
+<input type="radio" name="choice" value="None of These"> None of These
+</form>
+<button onclick="submitAnswer()">Submit Answer</button>
 </html>
